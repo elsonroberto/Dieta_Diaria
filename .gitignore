@@ -1,0 +1,15 @@
+# Dependências e build
+node_modules/
+dist/
+coverage/
+*.log
+
+# Configurações privadas e banco de dados
+.env
+.env.*
+!.env.example
+backend/data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+.DS_Store

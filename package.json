@@ -1,0 +1,15 @@
+{
+  "name": "daily-diet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "dev": "node scripts/dev.mjs",
+    "test": "npm test --prefix backend",
+    "build": "npm run build --prefix frontend"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
